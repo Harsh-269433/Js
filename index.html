@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Student Registration System</h1>
+    <p>Register, edit, and manage student details efficiently.</p>
+</header>
+<!---Form Section-->
+    <section class="form-section">
+  <h2>Register a New Student</h2>
+  <form id="studentForm">
+    <label for="name">Student Name:</label>
+    <input type="text" id="name" name="name" required placeholder="Enter full name">
+
+    <label for="studentId">Student ID:</label>
+    <input type="number" id="studentId" name="studentId" required placeholder="Enter student ID">
+
+    <label for="email">Email ID:</label>
+    <input type="email" id="email" name="email" required placeholder="Enter email">
+
+    <label for="contact">Contact Number:</label>
+    <input type="tel" id="contact" name="contact" required placeholder="Enter contact number">
+
+    <button type="submit">Register</button>
+  </form>
+</section>
+<!--Display Section-->
+<section class="display-section">
+  <h2>Registered Students</h2>
+  <div id="studentListContainer">
+    <table id="studentTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Student ID</th>
+          <th>Email</th>
+          <th>Contact</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="studentTableBody">
+        <!-- Student records will appear here dynamically -->
+      </tbody>
+    </table>
+  </div>
+</section>
+
+  <!-- Content will go here -->
+
+  <script src="script.js"></script>
+</body>
+</html>

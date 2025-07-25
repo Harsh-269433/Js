@@ -1,0 +1,100 @@
+/* General Reset */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+header p {
+  margin-top: 5px;
+  font-size: 1em;
+}
+
+/* Form Section */
+.form-section {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-section label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.form-section input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-section button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-section button:hover {
+  background-color: #218838;
+}
+
+/* Display Section */
+.display-section {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.display-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.display-section th,
+.display-section td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.display-section th {
+  background-color: #007bff;
+  color: white;
+}
+
+.display-section tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
